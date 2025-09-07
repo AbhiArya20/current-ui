@@ -4,11 +4,13 @@ import * as TabsComponents from 'fumadocs-ui/components/tabs';
 import type { MDXComponents } from 'mdx/types';
 import { Accordion, Accordions } from 'fumadocs-ui/components/accordion';
 import * as icons from 'lucide-react';
+import * as ObsidianComponents from 'fumadocs-obsidian/ui';
 
 export function getMDXComponents(components?: MDXComponents) {
   return {
     ...(icons as unknown as MDXComponents),
     ...defaultMdxComponents,
+    ...ObsidianComponents,
     ...TabsComponents,
     ...FilesComponents,
     Accordion,
