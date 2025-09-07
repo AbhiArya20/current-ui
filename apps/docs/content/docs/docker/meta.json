@@ -1,26 +1,10 @@
 {
-  "title": "Framework",
-  "description": "The docs framework",
-  "icon": "Building",
+  "title": "Docker",
+  "description": "Containers",
+  "icon": "Docker",
   "root": true,
   "pages": [
     "---Introduction---",
-    "index",
-    "what-is-fumadocs",
-    "comparisons",
-    "---Setup---",
-    "...",
-    "---Writing---",
-    "page-conventions",
-    "markdown",
-    "navigation",
-    "---Customisation---",
-    "search",
-    "customisation",
-    "---UI---",
-    "theme",
-    "components",
-    "mdx",
-    "layouts"
+    "index"
   ]
 }
