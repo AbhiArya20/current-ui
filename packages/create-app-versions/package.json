@@ -33,7 +33,7 @@
     "tinyglobby": "^0.2.14",
     "typescript": "^5.9.2",
     "vinxi": "^0.5.8",
-    "vite": "^7.1.4",
+    "vite": "^7.1.5",
     "vite-tsconfig-paths": "^5.1.4"
   }
 }
